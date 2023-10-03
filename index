@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcccb;
+            color: #4A4A4A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .content {
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+        .emoji {
+            font-size: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <span class="emoji">🎉</span>
+        <h1>Happy Birthday, [Friend's Name]!</h1>
+        <p>Wishing you a day filled with love, joy, and laughter.</p>
+        <span class="emoji">🎂</span>
+    </div>
+</body>
+</html>
